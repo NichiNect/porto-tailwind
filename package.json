@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "tailwind-watch": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
+  },
   "dependencies": {
     "tailwindcss": "^3.3.3"
   }
